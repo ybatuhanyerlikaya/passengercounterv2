@@ -15,7 +15,7 @@ function increment() {
 
 function save() {
 
-   saveEl.textContent+=count+","
+   saveEl.textContent+= count + ","
     gunSayac.push(count)
 
     for(i=gunSayac.length-1; i<gunSayac.length;i++){
